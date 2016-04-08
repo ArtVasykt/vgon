@@ -20,5 +20,6 @@ import vk.views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', vk.views.vk, name='index')
+    url(r'^$', vk.views.vk, name='index'),
+    url(r'^mobile$', vk.views.mobile_vk, name='index_mobile')
 ]
